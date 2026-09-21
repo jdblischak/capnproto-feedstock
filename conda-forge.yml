@@ -11,6 +11,7 @@ build_platform:
 provider:
   linux_aarch64: azure
   linux_ppc64le: azure
+  win_arm64: default
 test: native_and_emulated
 conda_install_tool: pixi
 conda_build_tool: rattler-build
